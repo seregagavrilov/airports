@@ -1,7 +1,5 @@
 # README 
 
-Simple api for infromation about airports in different country.
-
 
 ## Installation
 Use git:
