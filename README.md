@@ -18,6 +18,6 @@ python manage.py load_airports /Users/sergeigavrilov/airports_directory/task-1_a
 For run application you can use localhost or deploy this on any server. 
 How deploy you can read from oficial documintation https://docs.djangoproject.com/en/2.1/howto/deployment/
 ```
- python ./manage.py runserver```
+ python ./manage.py runserver
 ```
 And that's all! Enjoy!
