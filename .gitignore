@@ -1,0 +1,21 @@
+.idea/
+mngq/
+*.rdb
+.DS_Store
+__pycache__/
+dist/
+*.cfg
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+/dist/
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+/*.egg
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3

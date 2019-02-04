@@ -1,0 +1,8 @@
+Django==2.1.5
+django-configurations==2.1
+django-crispy-forms==1.7.2
+django-extensions==2.1.4
+django-filter==2.1.0
+djangorestframework==3.9.0
+pandas==0.24.0
+
