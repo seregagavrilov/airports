@@ -21,11 +21,13 @@ For information about airports
  python ./manage.py runserver
 
 ## Use appplication
-For information about airports
+For information about airports:
+
 ```
 http://localhost:8000/airports_api/v1/airports/
+```
 
-You can use filter
+You can use filter:
 ```
 http://localhost:8000/airports_api/v1/airports/?city__country__eng_name=Pakistan
 ```
