@@ -58,7 +58,7 @@ class CityView(viewsets.ModelViewSet, ViewMixin):
         return super(CityView, self).get_permissions()
 
 
-class СountryView(viewsets.ModelViewSet, ViewMixin):
+class CountryView(viewsets.ModelViewSet, ViewMixin):
     queryset = Country.objects.all()
     serializer_class = CountrySerializer
     filter_fields = (
@@ -71,7 +71,7 @@ class СountryView(viewsets.ModelViewSet, ViewMixin):
             self.permission_classes = [permissions.BasePermission, ]
         else:
             self.permission_classes = [permissions.IsAuthenticated, ]
-        return super(СountryView, self).get_permissions()
+        return super(CountryView, self).get_permissions()
 
 
 class UserCreateView(viewsets.ModelViewSet, ViewMixin):
