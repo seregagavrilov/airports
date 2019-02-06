@@ -19,7 +19,7 @@ For run on localhost you can write simple command:
 ```
  python ./manage.py runserver
 ```
-## Use appplication
+## Use application
 For information about airports:
 
 ```
