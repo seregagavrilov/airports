@@ -24,6 +24,7 @@ class Base(Configuration):
         'django_extensions',
         'rest_framework',
         'django_filters',
+        'frontend',
     ]
 
     AUTH_USER_MODEL = 'rest_api_airports.UserCustom'
